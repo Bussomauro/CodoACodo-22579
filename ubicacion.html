@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ubicacion</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <header>
+        <h1>Ubicacion</h1>
+    </header>
+    <nav>
+        <h2>Home</h2>
+        <h2>Contactanos</h2>
+        <h2>Ubicacion</h2>
+    </nav>
+
+    <section>
+        <article>
+            <figure>
+                <img src="img/Tierra1.jpg" alt="Jupiter" style="width:50%">
+                <figcaption>Fig 1 - Planeta Jupiter.</figcaption>
+            </figure>
+        </article>
+        <article>
+            <video controls autoplay>
+                <!-- control para que el usuario pueda detener el video-->
+                <source src="URL" type="video/mp4">
+            </video>
+            <audio controls autoplay preload="auto">
+                <!-- siempre utilizar controls para permtir que el usuaio controle-->
+                <source src="URL" type="audio/mp3">
+            </audio>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/_vHowdg5GfU"
+                title="Musica para trabajar activo y alegre mix - La Mejor Musica Deep House - Deep House Mix 2022"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9077099819538!2d-58.437822485052315!3d-34.60649516515142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca688994eb61%3A0xd055df0a7dafa86e!2sParque%20Centenario!5e0!3m2!1ses-419!2sar!4v1660866484961!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+
+    </section>
+    <section>
+        <!-- genero formulario-->
+        <form action="URL" method="post" enctype="multipart/form-data">
+            <label for="user">Usuario: </label>
+            <input type="text" name="user" id="user">
+            <br><br>
+            <label for="mail">E-mail: </label>
+            <input type="email" name="mail" value="@">
+            <br><br>
+            <label for="date">Fecha de nacimiento: </label>
+            <input type="date" name="date" id="date">
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="file" name="" id="">
+            <input type="color" name="" id="">
+            <br><br>
+            <!-- con los radio si comparten el mismo name solo te da la opcion de elegir 1-->
+            <label for="SI">SI</label>
+            <input type="radio" name="resp">
+            <label for="NO">NO</label>
+            <input type="radio" name="resp">
+            <br><br>
+            <label for="Acepto">Acepto</label>
+            <input type="checkbox">
+            <br><br>
+            <label for="password">Contaseña: </label>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <input type="submit" value="Ingresar a mi cuenta">
+            <button type="reset" value="Borrar">Borrar</button>
+            <br><br>
+            <select name="Colores" id="colores">              
+                <option value="rosa">Rosa</option>
+                <option value="verde">Verde</option>
+                <optgroup value="Colores favoritos">Colores favoritos</optgroup>
+                <option value="azul">Azul</option>
+                <option value="negro">Negro</option>
+            </select>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <!-- lista desordenada -->
+            <li><a href="https://es-la.facebook.com/">Facebook</a></li> <!-- items de mi lista-->
+            <li><a href="https://www.Instagram.com/" target="_blank">Instagram</a></li>
+            <!-- target="blank" abre en otra pestañ el link-->
+            <li><a href="https://twitter.com/" target="_blank" rel="no-referrer">Twitter</a></li>
+        </ul>
+    </footer>
+
+    <script src="" async defer></script>
+</body>
+
+</html>

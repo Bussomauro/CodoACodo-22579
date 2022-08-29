@@ -1,0 +1,25 @@
+/* el style funciona por orden de llamada */
+
+p{  /* llamamos por etiqueta */
+    color: blue;
+    font-size: 42px;
+}
+
+*{ /* llamado general */
+    font-size: 30px;
+}
+
+.foot{ /* llamamos por clase */ 
+    background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#parrafo{ /* llamamos por id */ 
+    font-style: oblique;
+    font-family: cursive;
+    color: springgreen;
+}
+
+.animate__animated.animate__bounce{
+    animation-duration: 5s;
+} /* sacado de animate.css*/ 

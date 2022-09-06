@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    border: 2px solid blue;
+    padding: 10px;
+    gap: 10px 20px;
+}
+.flex-item{
+    /* flex-direction: column-reverse; */
+    border: 1px solid red;
+    overflow: auto;
+    background-color: burlywood;
+    height: 95px;
+    width: 400px;
+    text-align: center;
+}
+#puesto{
+    order: -1;
+}

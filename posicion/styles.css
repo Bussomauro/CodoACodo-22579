@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    transition: width 2s;
+    -o-transition: width 2s;
+    -moz-transition: width 2s;
+    -ms-transition: width 2s;
+    -webkit-transition: width 2s;
+}
+div:hover{
+    width: 400px;
+    height: 100px;
+}

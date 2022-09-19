@@ -1,11 +1,21 @@
-div{
-    /* border: 1px solid black; */
+.col-1,
+.col-3,
+.col-4,
+.col-6,
+.col-8,
+.col-9,
+.col-12{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: blue;
+    padding: 10px;
 }
 
 .row{
-    height: 30px;
-    /* padding: 5px; */
+    height: 50px;
+    
 }
 .container{
-    padding: 10px;
+    color: aliceblue;
+    border: 1px solid blue;
 }
